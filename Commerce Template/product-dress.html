@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="./dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css">
+    <link rel="stylesheet" href="./owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./owl/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./owl/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Dudettes Clothing Ltd</title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><h3>DUDETTES</h3></a>
+          <ul class="user-account-sm">
+            <li class="middle-item">
+                <a href="#account" class="middle-link"><i class="bi bi-person-circle"></i></a>
+            </li>
+            <li class="middle-item">
+                <a href="#search" class="middle-link"><i class="bi bi-search"></i></a>
+            </li>
+            <li class="middle-item">
+                <a href="#cart" class="middle-link"><i class="bi bi-cart3"></i></a>
+            </li>
+        </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">DUDETTES</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./product-shirt.html" class="nav-link">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto user-account-lg">
+                    <li class="nav-item mx-1">
+                        <a href="#help" class="nav-link">Help</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#account" class="account-lg nav-link "><i class="bi bi-person-circle"></i></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#search" class="account-lg nav-link"><i class="bi bi-search"></i></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#cart" class="account-lg nav-link"><i class="bi bi-cart3"></i></a>
+                    </li>
+                </ul>             
+            </div>
+          </div>
+        </div>
+      </nav>   
+
+    <!-- Carousel -->
+
+    <main>
+
+<section class="product">     
+
+        <div class="owl-container">
+            <div class="content-carousel">
+                <div class="owl-carousel">
+                    <div> <img class="item-img" src="./img/yellow0.jpg"> </div>
+                    <div> <img class="item-img" src="./img/yellow1.jpg"> </div>
+                    <div> <img class="item-img" src="./img/yellow2.jpg"> </div>
+                    <div> <img class="item-img" src="./img/yellow3.jpg"> </div>
+                </div>
+            </div>
+        </div>
+
+<div class="product-description">
+    <div class="product-heading">
+        <h1 class="item-title-header">Norwich City</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Tempora neque vero animi nisi reiciendis, mollitia velit ut dolore exercitationem et.</p>
+    </div>
+
+    <div class="price-info">
+        <div class="sale-price">
+            <h2>£44.99</h2>
+        </div>
+        <div class="former-price">
+            <h2>£79.99</h2>
+        </div>
+    </div>
+
+    <form class="size-and-colour">
+        <label for="size">Size:</label>
+        <select class="selectors" id="size" name="size">
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="XXL">XXL</option>
+        </select>
+        <label for="colour">Colour:</label>
+        <select class="selectors" id="colour" name="size">
+          <option value="Green">Yellow</option>
+          <option value="Black">White</option>
+          <option value="Grey">Pink</option>
+          <option value="Navy">Blue</option>
+        </select>
+        <button type="submit" class="add-to-basket">Add to Basket</button>
+      </form>
+
+
+
+</div>
+
+
+</section>  
+
+
+     
+    </main>
+
+    <!-- <footer class="bg-dark text-white">
+        <div class="container">
+            <ul class="social-media">
+                <li class="social-icon"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="social-icon"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="social-icon"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="social-icon"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer> -->
+
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./dist/aos.js"></script>
+    <script>
+        AOS.init({
+        easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script src="./owl/owl.carousel.min.js"></script>
+    <script src="./owl/owl.carousel.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
